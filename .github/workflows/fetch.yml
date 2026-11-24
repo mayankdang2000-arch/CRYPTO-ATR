@@ -12,3 +12,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: python fetch_data.py
+      - run: python atr_rank.py
